@@ -20,4 +20,5 @@ app.post('/livros', (req, res) => {
     livros.push(req.body);
     res.status(201).send('Livro foi cadastrado com sucesso')
 })
+console.log('teste')
 export default app
